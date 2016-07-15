@@ -1,0 +1,32 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function display1(){
+       window.alert("Employee Name : "+document.getElementById("ename").value+"\n"+
+	   "Date Of Birth : "+document.getElementById("dob").value+"\n"+
+	   "Designation : "+document.getElementById("des").value+"\n"+
+	   "Employee ID : "+document.getElementById("eid").value+"\n"+
+	   "Extension : "+document.getElementById("ext").value);
+	   }
+ </script>
+<title>Employee Information</title>
+</head>
+<body>
+<br><h1><center>EMPLOYEE INFORMATION</center></h1><br><br>
+<form>
+  <h2><center><pre><font face="Times New Roman">Employee Name</font> : <input type="text" name="ename" id="ename"><br><br>
+<font face="Times New Roman">Date Of Birth</font>    : <input type="text" name="dob" id="dob"><br><br>
+  <font face="Times New Roman">Designation</font>    : <input type="text" name="des" id="des"><br><br>
+  <font face="Times New Roman">Employee ID</font>   : <input type="text" name="eid" id="eid"><br><br>
+    <font face="Times New Roman">Extension</font>    : <input type="text" name="ext" id="ext"><br><br></pre></h2>
+	<center><input type="submit" id="submit" style="font-size:20px" onClick="display1()"></center>
+	<style type="text/css">
+    input#submit
+    {
+        width: 170px;
+        height: 40px;
+    }
+</style>
+</form>
+</body>
+</html>
