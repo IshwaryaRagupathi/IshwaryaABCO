@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="lunalite.css"/>
+    <link rel="stylesheet" type="text/css" href="example.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src = "example.js"></script>
+    <h1><header id="header">Employee Information</header></h1>
+  </head>
+  <body>
+      
+      <form action = "example.php" method="POST">
+        <div id="info">
+            <h2><br><br><br><font face="Times New Roman">Employee Name</font> : <input type="text" name="ename" id="ename"><br>
+            <pre><font face="Times New Roman">Date Of Birth</font>   : <input type="text" name="dob" id="dob" onkeyup="display1()"></pre>
+            <pre><font face="Times New Roman">Designation</font>    : <input type="text" name="des" id="des" onkeyup="display2()"></pre>
+            <pre><font face="Times New Roman">Employee ID</font>   : <input type="text" name="eid" id="eid" onkeyup="display3()"></pre>
+            <pre><font face="Times New Roman">Extension</font>      : <input type="text" name="ext" id="ext" onkeyup="display4()"></pre><br></h2>
+	          <input type="submit" value="submit" style="font-size:20px"><br><br>
+        </div>
+        <div id="suggestions">
+          <h2>The Suggestions are : <br><br>
+          <span id="p1"></span></h2>
+        </div>
+      </form>
+  </body>
+</html>
